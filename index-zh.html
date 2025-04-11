@@ -189,54 +189,50 @@
             </div>
 
              <!-- 自定义个人的信息 -->
-            <div class="nav" draggable="false">
-                <div class="github">
-                    <a href="https://github.com/ricocc/uiineed-todo-list?ref=opensource-todo" target="_blank" class="social-link" draggable="false">
-                        <img src="public/img/social/github.svg" class="ic-social" alt="" draggable="false">
-                    </a>
-                </div>
-                <!-- <div class="about">
-                    <div class="info">
-                        <div class="info-ico" @click="togglePop" :style="{ fontWeight: popShow ? 'normal' : 'bold' }">
-                            关于我
-                        </div>
-                        <div class="popup animated popIn" v-if="!popShow">
-                            <div class="author">
-                                <img src="public/img/author.jpg" alt="">
-                                Rico的设计漫想
+                <!-- Custom Info -->
+                <div class="nav">
+                    <div class="github">
+                        <a href="https://github.com/ricocc/uiineed-todo-list?ref=opensource-todo" target="_blank" class="social-link" draggable="false">
+                            <img src="public/img/social/github.svg" class="ic-social" alt="" draggable="false">
+                        </a>
+                    </div>
+                    <div class="about">
+                        <div class="info">
+                            <div
+                                class="info-ico"
+                                @click="togglePop"
+                                :style="{ fontWeight: popShow ? 'normal' : 'bold' }">
+                                About
                             </div>
-                            <div class="author-info">
-                                <div class="author-desc">
-                                    简简单单喜欢探索设计和开发的设计师.
+                            <div class="popup animated popIn" v-if="!popShow">
+                                <div class="author">
+                                    <img src="public/img/author.jpg" alt="">
+                                    CyrilGuo
                                 </div>
-                            </div>
-
-                            <div class="social">
-                                <a href="https://www.xiaohongshu.com/user/profile/5f2b6903000000000101f51f?ref=opensource-todo" target="_blank" class="social-link">
-                                    <img src="public/img/social/xiaohongshu.svg" class="ic-social" alt="">
+                                <div class="author-info">
+                                    <div class="author-desc">
+                                        一个喜欢编程和制造bug的人。
+                                    </div>
+                                </div>
+                                <div class="social">
+                                    <a href="mailto:connect@gwly.dpdns.org" class="social-link">
+                                        <img src="public/img/social/mail.svg" class="ic-social" alt="">
+                                    </a>
+                                    <a
+                                        href="https://github.com/CyrilGuoCODE"
+                                        target="_blank"
+                                        class="social-link">
+                                        <img src="public/img/social/github.svg" class="ic-social" alt="">
+                                    </a>
+                                </div>
+                                <a href="https://blog.dpdns.org" target="_blank" class="inspiration">🔖Cyril's Blog↗
                                 </a>
-                                <a href="https://space.bilibili.com/11442751?ref=opensource-todo" target="_blank" class="social-link">
-                                    <img src="public/img/social/bilibili.svg" class="ic-social" alt="">
-                                </a>
-                                <a href="https://ricocc.zcool.com.cn/?ref=opensource-todo" target="_blank" class="social-link">
-                                    <img src="public/img/social/zcool.svg" class="ic-social" alt="">
-                                </a>
-                                <a href="mailto:ricocc@qq.com" class="social-link">
-                                    <img src="public/img/social/mail.svg" class="ic-social" alt="">
-                                </a>
-                            </div>
-                            <a href="https://blog.ricocc.com/?ref=todo" target="_blank" class="inspiration">🔖开源的设计博客↗
-                            </a>
-                            <div class="zanshan">
-                                <p>有问题可以添加微信☕</p>
-                                <img src="public/img/wechat_qrcode.jpg" alt=""  class="zanshan-qr">
                             </div>
                         </div>
                     </div>
-                </div> -->
                 <!-- 根据需要切换中英文作为首页 -->
                 <div class="language switch-language">
-                    <a href="index.html" class="en" draggable="false">En</a>
+                    <a href="index_en.html" class="en" draggable="false">En</a>
                     <span>/</span>
                     <a href="javascript:;" target="_self" class="zh active" draggable="false">中</a>
                 </div>
